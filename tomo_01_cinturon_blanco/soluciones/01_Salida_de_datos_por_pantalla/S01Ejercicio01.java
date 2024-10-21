@@ -1,9 +1,5 @@
 /**
- * 1. Salida por pantalla
- *
- * 1. Escribe una programa que muestre tu nombre por pantalla.
- *
- * @author Luis José Sánchez
+ * Muestra un nombre por pantalla.
  */
 public class S01Ejercicio01 {
   public static void main(String[] args) {

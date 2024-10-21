@@ -1,11 +1,6 @@
 /**
- * 1. Salida por pantalla.
- *
- * Solución al ejercicio 3.
- * 
- * "Aprende Java con Ejercicios" (https://leanpub.com/aprendejava)
- *
- * @author Luis José Sánchez
+ * Muestra por pantalla 10 palabras en inglés junto a su correspondiente
+ * traducción al castellano, en dos columnas.
  */
 public class S01Ejercicio03 {
   public static void main(String[] args) {

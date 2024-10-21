@@ -1,9 +1,5 @@
 /**
- * 1. Salida por pantalla
- *
- * 10. Mejora el ejercicio anterior añadiéndole colores.
- *
- * @author Luis José Sánchez
+ * Pinta una escena con caracteres en color.
  */
 public class S01Ejercicio10 {
   public static void main(String[] args) {
