@@ -1,6 +1,5 @@
 /**
- * Dado un número del 1 a 7, muestra el día de la semana
- * correspondiente.
+ * Dado un número del 1 a 7, muestra el día de la semana correspondiente.
  */
 public class T01C04Ejercicio03 {
   public static void main(String[] args) {
@@ -37,6 +36,5 @@ public class T01C04Ejercicio03 {
     }
     
     System.out.println(dia);
-
   }
 }

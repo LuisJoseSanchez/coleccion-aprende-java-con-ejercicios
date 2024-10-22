@@ -1,15 +1,8 @@
 /**
- * 4. Sentencia Condicional
- *
- * 10. Escribe un programa que nos diga el horóscopo a partir del día y
- *     el mes de nacimiento.
- *
- * @author Luis José Sánchez
+ * Da el horóscopo a partir del día y el mes de nacimiento.
  */
 public class T01C04Ejercicio10 {
-
   public static void main(String[] args) {
-    
     String horoscopo = "";
 
     System.out.println("Este programa le dirá cuál es su horóscopo a partir de su fecha de nacimiento.");
@@ -107,7 +100,6 @@ public class T01C04Ejercicio10 {
       default:
     }
 
-    System.out.print("Su horóscopo es " + horoscopo);
-
+    System.out.println("Su horóscopo es " + horoscopo);
   }
 }

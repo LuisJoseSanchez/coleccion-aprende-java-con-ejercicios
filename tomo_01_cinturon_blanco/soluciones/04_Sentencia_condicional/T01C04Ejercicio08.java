@@ -1,15 +1,8 @@
 /**
- * 4. Sentencia Condicional
- *
- * 8. Amplía el programa anterior para que diga la nota del boletín
- *    (insuficiente, suficiente, bien, notable o sobresaliente).
- *
- * @author Luis José Sánchez
+ * Calcula la media y dice la nota del boletín.
  */
 public class T01C04Ejercicio08 {
-
   public static void main(String[] args) {
-
     System.out.println("Este programa calcula la media de tres notas.");
     
     System.out.print("Por favor, introduzca la primera nota: ");

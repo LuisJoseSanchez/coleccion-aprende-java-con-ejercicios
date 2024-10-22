@@ -1,15 +1,8 @@
 /**
- * 4. Sentencia Condicional
- *
- * 11. Escribe un programa que dada una hora determinada (horas y minutos),
- *     calcule los segundos que faltan para llegar a la medianoche.
- *
- * @author Luis José Sánchez
+ * Calcula los segundos que faltan para llegar a la medianoche.
  */
 public class T01C04Ejercicio11 {
-
   public static void main(String[] args) {
-    
     System.out.print("A continuación deberá introducir una hora del día, ");
     System.out.println("primero introducirá la hora y luego los minutos.");
     
@@ -22,7 +15,7 @@ public class T01C04Ejercicio11 {
     int segundosTranscurridos = (hora * 3600) + (minuto * 60);
     int segundosHastaMedianoche = (24 * 3600) - segundosTranscurridos;
             
-    //System.out.println("Desde las " + hora + ":" + minuto + " hasta la medianoche faltan " + segundosHastaMedianoche + " segundos.");
-    System.out.printf("Desde las %02d:%02d hasta la medianoche faltan %d segundos.", hora, minuto, segundosHastaMedianoche);
+    System.out.printf("Desde las %02d:%02d hasta la medianoche", hora, minuto);
+    System.out.printf(" faltan %d segundos.\n", segundosHastaMedianoche);
   }
 }

@@ -1,18 +1,13 @@
 /**
- * 4. Sentencia Condicional
- *
- * 13. Escribe un programa que ordene tres números enteros introducidos por teclado.
- *
- * @author Luis José Sánchez
+ * Ordena tres números enteros introducidos por teclado.
  */
 public class T01C04Ejercicio13 {
-
   public static void main(String[] args) {
-    
     int aux;
         
-    System.out.println("Este programa ordena tres números introducidos por teclado.");
-    System.out.println("Por favor, vaya introduciendo los tres números y pulsando INTRO:");
+    System.out.print("Este programa ordena tres números introducidos por");
+    System.out.print(" teclado.\nPor favor, vaya introduciendo los tres");
+    System.out.println(" números y pulsando INTRO:");
     int a = Integer.parseInt(System.console().readLine());
     int b = Integer.parseInt(System.console().readLine());
     int c = Integer.parseInt(System.console().readLine());
@@ -38,6 +33,7 @@ public class T01C04Ejercicio13 {
       b = aux;
     }
         
-    System.out.println("Los números introducidos ordenados de menor a mayor son " + a + ", " + b + " y " + c + "."); 
+    System.out.print("Los números introducidos ordenados de menor a mayor son "); 
+    System.out.println(a + ", " + b + " y " + c + "."); 
   }
 }

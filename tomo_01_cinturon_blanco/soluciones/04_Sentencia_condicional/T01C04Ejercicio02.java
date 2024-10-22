@@ -3,7 +3,6 @@
  */
 public class T01C04Ejercicio02 {
   public static void main(String[] args) {
-
     System.out.print("Por favor, introduzca una hora del día (0 - 23): ");
     int hora = Integer.parseInt(System.console().readLine());
     
