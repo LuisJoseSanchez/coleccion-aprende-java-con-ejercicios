@@ -1,16 +1,8 @@
 /**
- * Aprende Java con Ejercicios
- * https://leanpub.com/aprendejava
- * 
- * Capítulo 4. Sentencia condicional.
- * 
- * Ejercicio 24
- *
- * @author Luis José Sánchez
+ * Genera la nómina de un empleado.
  */
 public class T01C04Ejercicio24 {
   public static void main(String[] args) {
-
     System.out.println("1 - Programador junior");
     System.out.println("2 - Prog. senior");
     System.out.println("3 - Jefe de proyecto");
@@ -58,12 +50,12 @@ public class T01C04Ejercicio24 {
     // Muestra la nómina desglosada
     System.out.println("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
     System.out.printf("┃ Sueldo base            %7.2f ┃\n", sueldoBase);
-    System.out.printf("┃ Dietas (%2d viajes)     %7.2f ┃\n", diasVisita, sueldoDietas);
+    System.out.printf("┃ Dietas (%2d viajes)%12.2f ┃\n", diasVisita, sueldoDietas);
     System.out.println("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫");
     System.out.printf("┃ Sueldo bruto           %7.2f ┃\n", sueldoBruto);
-    System.out.printf("┃ Retención IRPF (%.0f%%)   %7.2f ┃\n", irpf, cuantiaIrpf);
+    System.out.printf("┃ Retención IRPF (%.0f%%) %9.2f ┃\n", irpf, cuantiaIrpf);
     System.out.println("┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫");
-    System.out.printf("┃ Sueldo neto            %7.2f ┃\n", sueldoBruto - cuantiaIrpf);
+    System.out.printf("┃ Sueldo neto %18.2f ┃\n", sueldoBruto - cuantiaIrpf);
     System.out.println("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛");
   }
 }

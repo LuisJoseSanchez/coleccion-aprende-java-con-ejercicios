@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Realiza presupuestos de tartas.
+ */
 public class T01C04Ejercicio27 {
-
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
 
@@ -58,5 +60,4 @@ public class T01C04Ejercicio27 {
     
     System.out.printf("Total: %.2f €\n", precioSabor + precioNata + precioNombre);
   }
-
 }

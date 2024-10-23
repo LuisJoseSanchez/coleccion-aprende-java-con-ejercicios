@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Calcula el precio de un desayuno.
+ */
 public class T01C04Ejercicio29 {
-
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
 
@@ -47,5 +49,4 @@ public class T01C04Ejercicio29 {
     System.out.println(resultado);
     System.out.printf("Total desayuno: %.2f €\n", precioComida + precioBebida);
   }
-
 }

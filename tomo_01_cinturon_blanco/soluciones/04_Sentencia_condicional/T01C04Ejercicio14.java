@@ -1,15 +1,8 @@
 /**
- * 4. Sentencia Condicional
- *
- * 14. Realiza un programa que diga si un número introducido por teclado
- *     es par y/o divisible entre 5.
- *
- * @author Luis José Sánchez
+ * Dice si un número introducido por teclado es par y/o divisible entre 5.
  */
 public class T01C04Ejercicio14 {
-
   public static void main(String[] args) {
-        
     System.out.print("Por favor, introduzca un número entero: ");
     int n = Integer.parseInt(System.console().readLine());
 

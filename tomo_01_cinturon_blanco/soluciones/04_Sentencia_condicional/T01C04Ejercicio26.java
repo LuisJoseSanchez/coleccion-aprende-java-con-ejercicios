@@ -34,7 +34,7 @@ public class T01C04Ejercicio26 {
 
     total = precioEntradaIndividual * entradasIndividuales;
     total += 11 * entradasDePareja;
-    
+
     if(tieneTarjeta) {
       descuento = total * 0.1;
     }
@@ -50,7 +50,8 @@ public class T01C04Ejercicio26 {
 
     if (entradasIndividuales > 0) {
       System.out.printf("Entradas individuales         %2d\n", entradasIndividuales);
-      System.out.printf("Precio por entrada individual %5.2f €\n", precioEntradaIndividual);
+      System.out.printf("Precio por entrada individual ");
+      System.out.printf("%5.2f €\n", precioEntradaIndividual);
     }
 
     System.out.printf("Total                         %5.2f €\n", total);
